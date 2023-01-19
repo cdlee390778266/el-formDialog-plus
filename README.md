@@ -15,7 +15,7 @@
 
 ```javascript
 import ElFormDialogChen from "el-form-dialog-chen-plus";
-import "el-form-dialog-chen-plus/dist/index.css";
+import "el-form-dialog-chen-plus/lib/style.css";
 Vue.use(ElFormDialogChen);
 ```
 
