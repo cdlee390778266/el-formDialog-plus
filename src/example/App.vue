@@ -409,13 +409,11 @@ let defaultFormConfig = reactive([
 ]);
 let dialog = reactive({
   visible: false,
-  isLoading: false,
   type: "edit",
   title: "表单模态框",
   labelPosition: "right",
   formConfig: [...defaultFormConfig],
   formData: {},
-  addAttrs: [],
   onsubmit: onsubmit,
   size: "default",
   submitLoading: true,
@@ -489,6 +487,7 @@ function validator(rule, value, callback) {
 }
 // handelType 弹窗操作类型, formData 表单数据, srcFormData 原始表单数据, closeCb 关闭弹窗函数
 function onsubmit(handelType, formData, srcFormData, closeCb) {
+  console.log(handelType, formData, srcFormData);
   new Promise((resolve, reject) => {
     setTimeout(closeCb, 1000);
   });

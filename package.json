@@ -1,6 +1,6 @@
 {
   "name": "el-form-dialog-chen-plus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "element-plus 表单可配置化组件 表单弹窗可配置化组件 告别复制粘贴噩梦",
   "keywords": ["vue3", "ui", "form", "dialog", "element-plus", "el-input", "el-number", "el-form-chen", "el-form-dialog-chen" ],
   "author": "cdlee390778266",
